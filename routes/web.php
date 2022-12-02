@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\MerchController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\NewsController;
 use App\Models\News;
@@ -22,3 +23,5 @@ Route::get('/newsletter', [NewsController::class ,'store']);
 Route::get('/info/{news:slug}', [NewsController::class, 'show']);
 
 Route::get('/info', [NewsController::class, 'full']);
+
+Route::get('/merch', [MerchController::class, 'index']);

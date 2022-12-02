@@ -98,7 +98,7 @@
                 <img src="img/IconInfo.png" style="width: 78px; height: 69px; margin-top: 38px; margin-bottom:22px">
                 <figcaption>INFO</figcaption>
             </a >
-            <a href="#" class="box" style="background: #12A19B">
+            <a href="merch" target="_blank" class="box" style="background: #12A19B">
                 <img src="img/IconMerch.png" style="width: 109px; height: 113px; margin-top: 16px">
                 <figcaption>MERCH</figcaption>
             </a >

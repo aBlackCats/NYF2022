@@ -3,6 +3,8 @@
 namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+
+use App\Models\Merch;
 use App\Models\News;
 use App\Models\User;
 use App\Models\Timeline;
@@ -33,5 +35,14 @@ class DatabaseSeeder extends Seeder
         Timeline::create(['news_id'=>'1', 'title'=>'PHASE-1', 'date'=>'Selasa, 27 Desember 2022', 'time'=>'PKL. 16.00 P.M. - 22.15 P.M.', 'location'=>'Samarinda Convention Hall']);
 
         Timeline::create(['news_id'=>'2', 'title'=>'PHASE-2', 'date'=>'Rabu, 28 Desember 2022', 'time'=>'PKL. 16.00 P.M. - 22.15 P.M.', 'location'=>'Samarinda Convention Hall']);
+    
+        Merch::create(['name'=>'T Shirt HNY', 'color'=>'Black & White']);
+
+        Merch::create(['name'=>'T Shirt HNY', 'color'=>'Black & Gold']);
+
+        Merch::create(['name'=>'T Shirt HNY', 'color'=>'White & Black']);
+
+        Merch::create(['name'=>'Tumbler', 'color'=>'HNY - T']);
+
     }
 }

@@ -235,6 +235,47 @@ body, html {
     color: rgba(150, 135, 135, 0.97);
 }
 
+.merch {
+    font-family: var(--poppins);
+    display: flex;
+    justify-content: center;
+    padding-top: 12.75rem;
+}
+
+.merch .name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 38px;
+    letter-spacing: 0.05em;
+    color: rgba(0, 0, 0, 0.78);
+    margin: 0;
+    padding-top: 0.625rem;
+}
+
+.merch .color {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #968787;
+}
+
+.merch .button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #00D2CA;
+    border: none;
+    border-radius: 5px;
+    width: 30%;
+    height: 1.6875rem;
+}
+
 footer {
     position: fixed;
     bottom: 0;
